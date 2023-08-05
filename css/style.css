@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: dodgerblue;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#fundo {
+    background: white;
+    width: 90%;
+    max-width: 1250px;
+    margin: 50px auto;
+    padding: 30px 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#imagem {
+    height: 300px;
+    width: 100%;
+    background: url('../assets/pexels-nikolaos-dimou-1250289.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+}
+
+#legenda {
+    padding-top: 10px;
+    text-align: right;
+}
+
+ol, ul {
+    font-size: 10pt;
+    line-height: 24px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+#footer {
+    margin: 30px 0;
+    text-align: center;
+}
